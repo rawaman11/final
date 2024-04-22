@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>valley</title>
+</head>
+<body>
+    <header>
+        <a href="#main" class="skip">Skip to main content</a>
+        <div class="container">
+            <h1>The Whispering Woods</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="story.html">The Story</a></li>
+                <li><a href="author2.html">Author</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <style>
+        body {
+            background-image: url('images/spirit.jpeg');
+        }
+    </style>
+    <main id="main">
+        <div class="container">
+            <h2>Valley of Mist</h2>
+            <p>Mio finds herself in a silent, misty valley. The air is cool, and whispers echo around her. A spirit appears before her.</p>
+            <fieldset>
+            <legend>What will Mio do?</legend>
+            <div class="options">
+                <div class="option">
+                    <input type="radio" id="singOption" name="action" value="sing">
+                    <label for="singOption">Sing a Song</label>
+                    <p>Mio tries to befriend the spirit with a song.</p>
+                </div>
+                <div class="option">
+                    <input type="radio" id="searchOption" name="action" value="search">
+                    <label for="searchOption">Search for Clues</label>
+                    <p>Mio looks for physical clues about the key's origin.</p>
+                </div>
+            </div>
+            </fieldset>
+            <button id="goButton" disabled>Go</button>
+    </main>
+    
+</body>
+<script src="js/script.js"></script>
+</html>

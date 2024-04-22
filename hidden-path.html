@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hidden Path</title>
+</head>
+<body>
+    <header>
+        <a href="#main" class="skip">Skip to main content</a>
+        <div class="container">
+            <h1>The Whispering Woods</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="story.html">The Story</a></li>
+                <li><a href="author2.html">Author</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main id="main">
+        <h2>The Final Choice</h2>
+        <p>Mio finds herself at a fork in the road. She must choose between two paths, each leading to a different destiny.</p>
+        <div class="choice-box">
+            <div class="option dark" onclick="choosePath('dark')">
+                <img src="images/Dark.png" alt="Dark Path">
+                <p>Descend into the shadows where unknown dangers lurk.</p>
+                <button>Choose Dark Path</button>
+            </div>
+            <div class="option light" onclick="choosePath('light')">
+                <img src="images/light.jpg" alt="Light Path">
+                <p>Follow the light, leading to peace and clarity.</p>
+                <button>Choose Light Path</button>
+            </div>
+        </div>
+    </main>
+    
+</body>
+<script src="js/script.js"></script>
+</html>
